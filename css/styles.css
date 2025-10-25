@@ -1,7 +1,25 @@
+:root {
+  --main-bg-color: #141414;
+  --card-bg-color: #1F1F1F;
+  --gray: #6b6b6b;
+  --white: #ffffff;
+  font-size: 16px;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  line-height: 150%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
