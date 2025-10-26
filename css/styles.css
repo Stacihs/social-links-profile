@@ -1,8 +1,8 @@
 :root {
   --main-bg-color: #141414;
   --card-bg-color: #1f1f1f;
-  --gray: #6b6b6b;
-  --white: #ffffff;
+  --link-bg: #333;
+  --white: #fff;
   font-size: 16px;
 }
 
@@ -44,6 +44,11 @@ p {
 img {
   border-radius: 50%;
   height: 5.5rem;
+}
+
+#name {
+  color: var(--white);
+  font-size: 1.5rem;
 }
 
 
