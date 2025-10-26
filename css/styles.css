@@ -3,6 +3,7 @@
   --card-bg-color: #1f1f1f;
   --link-bg: #333;
   --white: #fff;
+  --green: #c4f82a;
   font-size: 16px;
 }
 
@@ -27,7 +28,6 @@
   border-radius: 0.75rem;
   row-gap: 1.5rem;
   background-color: var(--card-bg-color);
-  font-family: "Inter";
 }
 
 .row {
@@ -60,6 +60,12 @@ img {
   color: var(--white);
   font-weight: 700;
   font-size: 1.5rem;
+}
+
+#location {
+  color: var(--green);
+  font-weight: 700;
+  font-size: 0.875rem;
 }
 
 
