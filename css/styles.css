@@ -41,6 +41,11 @@ p {
   margin: 0;
 }
 
+img {
+  border-radius: 50%;
+  height: 5.5rem;
+}
+
 
 .attribution {
   font-size: 11px;
