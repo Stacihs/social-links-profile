@@ -69,6 +69,12 @@ img {
   font-size: 0.875rem;
 }
 
+p.column {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--white);
+}
 
 .attribution {
   font-size: 11px;
