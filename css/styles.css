@@ -97,6 +97,11 @@ button {
   font-family: inherit;
 }
 
+button:hover {
+  background-color: var(--green);
+  color: var(--link-bg);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
