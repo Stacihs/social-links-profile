@@ -59,7 +59,7 @@ img {
 
 #name {
   color: var(--white);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -104,4 +104,10 @@ button {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px){
+  .container {
+    padding: 2.5rem;
+  }
 }
