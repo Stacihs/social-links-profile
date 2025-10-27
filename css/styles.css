@@ -78,6 +78,25 @@ img {
   color: var(--white);
 }
 
+.links, button {
+  width: 100%;
+}
+
+.links {
+  row-gap: 1rem;
+}
+
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: var(--link-bg);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.875rem;
+  font-family: inherit;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
