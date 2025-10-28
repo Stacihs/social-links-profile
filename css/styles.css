@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --main-bg-color: #141414;
   --card-bg-color: #1f1f1f;
@@ -7,14 +9,12 @@
   font-size: 16px;
 }
 
-
 .inter-profile-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100 900;
   font-style: oblique 0deg 10deg;
 }
-
 
 .page-wrapper {
   min-height: 100dvh;
@@ -78,7 +78,8 @@ img {
   color: var(--white);
 }
 
-.links, button {
+.links,
+button {
   width: 100%;
 }
 
@@ -95,11 +96,13 @@ button {
   font-weight: 700;
   font-size: 0.875rem;
   font-family: inherit;
+  
 }
 
 button:hover {
   background-color: var(--green);
   color: var(--link-bg);
+  cursor: url(icons8-finger-up-ios-17-filled-32.png), auto;
 }
 
 .attribution {
@@ -111,7 +114,7 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .container {
     padding: 2.5rem;
   }
