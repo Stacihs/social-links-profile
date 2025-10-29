@@ -95,6 +95,10 @@ img {
   text-decoration: none;
 }
 
+.social-links:visited {
+  color: rgb(46, 148, 216);
+}
+
 .social-links:hover {
   background-color: var(--green);
   color: var(--link-bg);
