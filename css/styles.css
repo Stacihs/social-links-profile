@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+  font-family: "Inter";
+  src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+  font-weight: 100 900;
+  font-style: oblique 0deg 10deg;
+}
 
 :root {
   --main-bg-color: #141414;
@@ -9,18 +14,12 @@
   font-size: 16px;
 }
 
-.inter-profile-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100 900;
-  font-style: oblique 0deg 10deg;
-}
-
 .page-wrapper {
   min-height: 100dvh;
   padding: 1.5rem;
   background-color: var(--main-bg-color);
   line-height: 150%;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
